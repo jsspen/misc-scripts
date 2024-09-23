@@ -1,5 +1,8 @@
 # misc-scripts
-Various little scripts to have handy
+Various little bash & shell scripts to have handy. I keep remaking scripts and then forgetting where I leave them. Hopefully this cuts down on that! ...as long as I can remember why exactly I made them in the first place...
+
+Inspired by tteck's script repo:
+`bash -c "$(wget -qLO - https://raw.githubusercontent.com/jsspen/misc-scripts/refs/heads/main/{SCRIPT-NAME}.sh)"`
 
 ## CompressTifLZW.bat
 Use ImageMagick to compress uncompressed tif files using LZW, copying them to a `Compressed` subdirectory of the root as they're compressed. Drag and drop files onto .bat to run.
